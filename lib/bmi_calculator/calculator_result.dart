@@ -30,7 +30,7 @@ class CalculatorResult extends StatelessWidget {
             SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
-                 Navigator.push(
+                 Navigator.pop(
                   context,
                   MaterialPageRoute(
                       builder: (context) => BmiCalculator()));
